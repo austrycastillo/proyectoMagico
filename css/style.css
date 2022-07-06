@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital,wght@1,100&display=swap');
+
+h6 {
+    color: darkviolet;
+}
+
+#parrafo2 {
+    background-color: darkkhaki;
+    font-family: 'Lato', sans-serif;
+}
+
+.parrafo3 {
+    background-color: #000;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    /*fuentes seguras*/
+}
+
+/*selector grupal
+#parrafo2,.parrafo3{
+    
+}*/
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    /*1 em = 16px*/
+}
+
+.parrafo1 {
+    font-size: 12px;
+}
+
+.img1 {
+    width: 30%;
+    height: 250px;
+    margin-left: 2%;
+}
+
+header {
+    background-color: rgb(207, 207, 176);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    border: 2px dotted rgb(67, 11, 119);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(67, 11, 119);
+    padding: 7px 12px;
+    line-height: 50px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px rgb(26, 25, 25);
+}
+
+a:hover {
+    background-color: #fff;
+    color: rgb(67, 11, 119);
+}
+
+.cajitaForm {
+    background-color: cadetblue;
+    width: 40%;
+    margin: auto;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+.inputA,
+.inputB,
+.inputC {
+    width: 90%;
+}
+
+.inputA {
+    height: 35px;
+}
+
+.inputB {
+    height: 90px;
+}
+.inputD{
+    background-color: darkgreen;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.section1,
+.section2,
+.section3,
+.section4,
+.section5{
+    padding: 15px;
+}
+.section1{
+    background-color: rgb(231, 219, 231);
+    text-align: center;
+}
+.section2{
+    background-color: rgb(177, 201, 176);
+}
+.section3{
+    background-color: rgb(154, 194, 210);
+}
+.section4{
+    background-color: rgb(16, 16, 17);
+    color: #fff;
+}
+.section5{
+    background-color: rgb(237, 192, 176);
+}
+table,tr,td,th{
+    border: 1px solid black;
+}
+.t1{
+    width: 30%;
+    margin: auto;
+}
+table{
+    width: 100%;
+}
+.t2{
+    width: 50%;
+    margin-left: 10%;
+}
+.iframe{
+    overflow: hidden;
+}
+.fondo{
+    /* background-color: #000; */
+    width: 300px;
+    height: 250px;
+    background-image: url("../img/playa1.jpg");
+    margin-left: 200px;
+    /* background-repeat: repeat-y; */
+    background-size: cover;
+    padding: 10px;
+    /* background-size: 100% 100%; */
+}
+.contenedorA{
+    height: 100px;
+    background-color: yellow;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+}
+#padre{
+    background-color: coral;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+        
+}
+.hija{
+    background-color: red;
+    padding: 10px;
+    border: 1px solid #000;
+    height: 100px;
+    width: 100px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
